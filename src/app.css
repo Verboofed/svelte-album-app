@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components{
+.card {
+  @apply bg-primary-300 opacity-90 rounded-md overflow-hidden shadow-md p-2 relative m-8;
+}
+.albumStorage {
+  border-left: 28px solid;
+  border-right: 28px solid;
+  @apply border-primary-100;
+}
+.paralax {
+  /* Create the parallax scrolling effect */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+}
